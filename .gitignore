@@ -1,6 +1,8 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
+
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,go
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,go
+
+### Go ###
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -17,5 +19,31 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-# Go workspace file
-go.work
+### Go Patch ###
+/vendor/
+/Godeps/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,go
+
+test/logs
+test/logs-*
+test/tempconfig/
+coverage.txt
+go
+.dccache
