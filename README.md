@@ -38,7 +38,7 @@ experimental:
   plugins:
     cloudflarewarp:
       modulename: github.com/Amadeus331/cloudflarewarp
-      version: v1.3.0
+      version: v1.3.4
 ```
 
 ### Plugin configuration
