@@ -1,6 +1,6 @@
 displayName: Real IP from Cloudflare Proxy/Tunnel
 type: middleware
-import: github.com/Amadeus331/cloudflarewarp
+import: github.com/BilikoX/cloudflarewarp
 iconPath: .assets/icon.png
 
 summary: get real IP and proto from Cloudflare Proxy/Tunnel

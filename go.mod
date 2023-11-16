@@ -1,4 +1,4 @@
-module github.com/Amadeus331/cloudflarewarp
+module github.com/BilikoX/cloudflarewarp
 
 go 1.18
 

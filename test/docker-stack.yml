@@ -40,7 +40,7 @@ services:
       - ./traefik.toml:/etc/traefik/traefik.toml
       - ./logs:/var/logs/traefik
       - ./tempconfig:/etc/traefik/mconfig
-      - ../:/plugins-local/src/github.com/Amadeus331/cloudflarewarp:ro
+      - ../:/plugins-local/src/github.com/BilikoX/cloudflarewarp:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - /etc/localtime:/etc/localtime:ro
     deploy:
